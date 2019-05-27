@@ -7,10 +7,8 @@
   <body>
     <header class="main-header">
       <nav class="main-navigation">
+        <a href="index.html" class="main-navigation__logo-link"><img src="#" alt="" class="main-navigation__logo"></a>
         <ul class="main-navigation__list">
-          <li class="main-navigation__item">
-            <a href="#" class="main-navigation__link"></a>
-          </li>
           <li class="main-navigation__item">
             <a href="#" class="main-navigation__link">Студия</a>
           </li>
@@ -18,96 +16,133 @@
             <a href="#" class="main-navigation__link">Клиенты</a>
           </li>
           <li class="main-navigation__item">
-            <a href="#" class="main-navigation__link">Магазин</a>
+            <a href="#" class="main-navigation__link main-navigation__link--current">Магазин</a>
           </li>
           <li class="main-navigation__item">
             <a href="#" class="main-navigation__link">Контакты</a>
           </li>
         </ul>
-        <div class="shopping_cart">
-          <a href="#" class="shopping_cart__link">Корзина</a>
-        </div>
+        <ul class="shopping_cart">
+          <li class="shopping_cart__item">
+            <a href="#" class="shopping_cart__link">Корзина</a>
+          </li>
+        </ul>
       </nav>
     </header>
     <main>
-      <h1 class="main-title">Магазин готовых шаблонов</h1>
-      <ul class="production-list">
-        <li class="production-item">
-          <img src="img/img-sedona-jpg.jpg" alt="Sedona" class="production-item__img">
-          <div class="production-item__popup">
-            <h3 class="production-item__title">Sedona</h3>
-            <p class="production-item__text">Информационный сайт для туристов</p>
-            <a href="#" class="production-item__link">
-              <span class="production-item__price">9 900</span>руб.
-            </a>
-          </div>
-        </li>
-        <li class="production-item">
-          <img src="img/img-pink-jpg.jpg" alt="Pink App" class="production-item__img">
-          <div class="production-item__popup">
-            <h3 class="production-item__title">Pink App</h3>
-            <p class="production-item__text">Продуктовый лендинг приложения для iOS и Android</p>
+      <h1 class="page-title">Магазин готовых шаблонов</h1>
+      <section class="product-filter">
+        <h2 class="product-filter__title visually-hidden">фильтр товаров</h2>
+        <form>
+          <fieldset>
+            <legend>стоимость</legend>
+          </fieldset>
+          <fieldset>
+            <legend>сортировать</legend>
+          </fieldset>
+          <fieldset>
+            <legend>сетка</legend>
+            <label>
+              <input type="radio" name="grid" value="adaptiv">Адаптивная
+            </label>
+            <label>
+              <input type="radio" name="grid" value="fix">Фиксированная
+            </label>
+            <label>
+              <input type="radio" name="grid" value="rubber">Резиновая
+            </label>
+          </fieldset>
+          <fieldset>
+            <legend>особенности</legend>
+            <label><input type="checkbox" name="slider">Слайдер</label>
+            <label><input type="checkbox" name="advantage">Блок преимуществ</label>
+            <label><input type="checkbox" name="news">Новости</label>
+            <label><input type="checkbox" name="gallery">Галерея</label>
+            <label><input type="checkbox" name="basket">Корзина</label>
+          </fieldset>
+          <button type="submit"></button>
+        </form>
+      </section>
+      <section class="production">
+        <h2 class="production__title">каталог шаблонов</h2>
+        <ul class="production-list">
+          <li class="production-item">
+            <img src="img/img-sedona-jpg.jpg" alt="Sedona" class="production-item__img">
+            <div class="production-item__popup">
+              <h3 class="production-item__title">Sedona</h3>
+              <p class="production-item__text">Информационный сайт для туристов</p>
               <a href="#" class="production-item__link">
                 <span class="production-item__price">9 900</span>руб.
               </a>
-          </div>
-        </li>
-        <li class="production-item">
-          <img src="img/img-barbershop-jpg.jpg" alt="Barbershop" class="production-item__img">
-          <div class="production-item__popup">
-            <h3 class="production-item__title">Barbershop</h3>
-            <p class="production-item__text">Сайт салона красоты. Для мужчин, да.</p>
+            </div>
+          </li>
+          <li class="production-item">
+            <img src="img/img-pink-jpg.jpg" alt="Pink App" class="production-item__img">
+            <div class="production-item__popup">
+              <h3 class="production-item__title">Pink App</h3>
+              <p class="production-item__text">Продуктовый лендинг приложения для iOS и Android</p>
               <a href="#" class="production-item__link">
                 <span class="production-item__price">9 900</span>руб.
               </a>
-          </div>
-        </li>
-        <li class="production-item">
-          <img src="img/img-mishka-jpg.jpg" alt="MISHKA" class="production-item__img">
-          <div class="production-item__popup">
-            <h3 class="production-item__title">MISHKA</h3>
-            <p class="production-item__text">Интернет-магазин вязаных игрушек</p>
+            </div>
+          </li>
+          <li class="production-item">
+            <img src="img/img-barbershop-jpg.jpg" alt="Barbershop" class="production-item__img">
+            <div class="production-item__popup">
+              <h3 class="production-item__title">Barbershop</h3>
+              <p class="production-item__text">Сайт салона красоты. Для мужчин, да.</p>
               <a href="#" class="production-item__link">
                 <span class="production-item__price">9 900</span>руб.
               </a>
-          </div>
-        </li>
-        <li class="production-item">
-          <img src="img/img-aplus-jpg.jpg" alt="A Plus" class="production-item__img">
-          <div class="production-item__popup">
-            <h3 class="production-item__title">A Plus</h3>
-            <p class="production-item__text">Лендинг курсов повышения квалификации</p>
+            </div>
+          </li>
+          <li class="production-item">
+            <img src="img/img-mishka-jpg.jpg" alt="MISHKA" class="production-item__img">
+            <div class="production-item__popup">
+              <h3 class="production-item__title">MISHKA</h3>
+              <p class="production-item__text">Интернет-магазин вязаных игрушек</p>
               <a href="#" class="production-item__link">
                 <span class="production-item__price">9 900</span>руб.
               </a>
-          </div>
-        </li>
-        <li class="production-item">
-          <img src="img/img-kvast-jpg.jpg" alt="КВАСТ" class="production-item__img">
-          <div class="production-item__popup">
-            <h3 class="production-item__title">КВАСТ</h3>
-            <p class="production-item__text">Промо-сайт производителя крафтового кваса</p>
+            </div>
+          </li>
+          <li class="production-item">
+            <img src="img/img-aplus-jpg.jpg" alt="A Plus" class="production-item__img">
+            <div class="production-item__popup">
+              <h3 class="production-item__title">A Plus</h3>
+              <p class="production-item__text">Лендинг курсов повышения квалификации</p>
               <a href="#" class="production-item__link">
                 <span class="production-item__price">9 900</span>руб.
               </a>
-          </div>
-        </li>
-      </ul>
+            </div>
+          </li>
+          <li class="production-item">
+            <img src="img/img-kvast-jpg.jpg" alt="КВАСТ" class="production-item__img">
+            <div class="production-item__popup">
+              <h3 class="production-item__title">КВАСТ</h3>
+              <p class="production-item__text">Промо-сайт производителя крафтового кваса</p>
+              <a href="#" class="production-item__link">
+                <span class="production-item__price">9 900</span>руб.
+              </a>
+            </div>
+          </li>
+        </ul>
+        <ul class="pagination">
+          <li class="pagination__item">
+            <a href="" class="pagination__link pagination__link--current">1</a>
+          </li>
+          <li class="pagination__item">
+            <a href="" class="pagination__link">2</a>
+          </li>
+          <li class="pagination__item">
+            <a href="" class="pagination__link">3</a>
+          </li>
+          <li class="pagination__item">
+            <a href="" class="pagination__link">следующая</a>
+          </li>
+        </ul>
+      </section>
 
-      <ul class="pagination">
-        <li class="pagination__item">
-          <a href="" class="pagination__link pagination__link--current">1</a>
-        </li>
-        <li class="pagination__item">
-          <a href="" class="pagination__link">2</a>
-        </li>
-        <li class="pagination__item">
-          <a href="" class="pagination__link">3</a>
-        </li>
-        <li class="pagination__item">
-          <a href="" class="pagination__link">следующая</a>
-        </li>
-      </ul>
     </main>
     <footer class="main-footer">
       <ul class="social-btn__list">
@@ -126,5 +161,15 @@
         <p class="social-friendship__text">Скидка 10% для друзей из социальных сетей.</p>
       </div>
     </footer>
+    <section class="modal modal-feedback">
+      <h2 class="modal-feedback__title">Напишите нам</h2>
+      <form >
+        <label>Ваше имя:<input type="text" placeholder="Имя Фамилия"></label>
+        <label>Ваш e-mail:<input type="password" placeholder="email@example.com"></label>
+        <label>Текст письма:<textarea name="message-text" cols="30" rows="10" placeholder="В свободной форме"></textarea>
+        </label>
+        <button type="submit">отправить</button>
+      </form>
+    </section>
   </body>
 </html>

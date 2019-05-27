@@ -7,10 +7,8 @@
   <body>
     <header class="main-header">
       <nav class="main-navigation">
+        <a href="#" class="main-navigation__logo-link"><img src="#" alt="" class="main-navigation__logo"></a>
         <ul class="main-navigation__list">
-          <li class="main-navigation__item">
-            <a href="#" class="main-navigation__link"></a>
-          </li>
           <li class="main-navigation__item">
             <a href="#" class="main-navigation__link">Студия</a>
           </li>
@@ -24,9 +22,11 @@
             <a href="#" class="main-navigation__link">Контакты</a>
           </li>
         </ul>
-        <div class="shopping_cart">
-          <a href="#" class="shopping_cart__link">Корзина</a>
-        </div>
+        <ul class="shopping_cart">
+          <li class="shopping_cart__item">
+            <a href="#" class="shopping_cart__link">Корзина</a>
+          </li>
+        </ul>
       </nav>
     </header>
     <main>
@@ -70,5 +70,15 @@
         <p class="social-friendship__text">Скидка 10% для друзей из социальных сетей.</p>
       </div>
     </footer>
+    <section class="modal modal-feedback">
+      <h2 class="modal-feedback__title">Напишите нам</h2>
+      <form >
+        <label>Ваше имя:<input type="text" placeholder="Имя Фамилия"></label>
+        <label>Ваш e-mail:<input type="password" placeholder="email@example.com"></label>
+        <label>Текст письма:<textarea name="message-text" cols="30" rows="10" placeholder="В свободной форме"></textarea>
+        </label>
+        <button type="submit">отправить</button>
+      </form>
+    </section>
   </body>
 </html>
