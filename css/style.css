@@ -1,0 +1,182 @@
+/* font-family: 'Roboto', sans-serif; */
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 400;
+  color: #000000;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* header */
+.main-header {}
+
+.main-navigation {}
+
+.main-navigation__logo-link {}
+
+.main-navigation__logo {}
+
+.main-navigation__list {
+  list-style: none;
+}
+
+.main-navigation__item {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.88;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.main-navigation__item:hover {
+  color: rgb(251, 86, 90);
+}
+
+.main-navigation__item:active {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.main-navigation__link {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.88;
+  color: #000000;
+}
+
+.main-navigation__link:hover {
+  color: rgb(251, 86, 90);
+}
+
+.main-navigation__link:active {
+  color: rgba(0, 0, 0, 0.3);
+}
+.main-navigation__link--current {
+  border-bottom: 2px solid rgb(251, 86, 90);;
+}
+.shopping_cart {
+  list-style: none;
+}
+
+.shopping_cart__item {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.88;
+  color: #000000;
+}
+
+.shopping_cart__link {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.88;
+  color: #000000;
+}
+
+.shopping_cart__link:hover {
+  color: rgb(251, 86, 90);
+}
+
+.shopping_cart__link:active {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+/* header */
+/* body */
+.page-title {
+  font-size: 55px;
+  font-weight: 500;
+  line-height: 1;
+  text-align: center;
+  color: #000000;
+}
+
+.features {}
+
+.features__list {}
+
+.features__item {}
+
+.features__item-title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #000000;
+}
+
+.features__item-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #283136;
+}
+
+.features__item-order-link {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.13;
+  color: #ffffff;
+}
+
+.sorting-form {}
+
+.form-wrap {}
+
+.sorting-fort__title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.67;
+  color: #000000;
+}
+
+.sorting-form__grid {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.25;
+  color: #283136;
+}
+
+.sorting-form__features {}
+
+.sorting-form__btn {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.13;
+  text-align: center;
+  color: #000000;
+}
+
+/* body */
+/* footer */
+.main-footer {}
+
+.social-btn__list {}
+
+.social-btn__item {}
+
+.social-btn__link {}
+
+.social-friendship {}
+
+.social-friendship__slogan {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1;
+  color: #000000;
+}
+
+.social-friendship__text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.38;
+  color: #444444;
+}
+
+/* s
+s
+s */
